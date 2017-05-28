@@ -1,5 +1,4 @@
 # execute walljump
-say walljump east detection running
 execute @s[tag=!wallJumpEast] ~ ~ ~ function mechanics:wallJump
 
 # setup face timeout

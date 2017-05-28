@@ -4,3 +4,5 @@ execute @e[type=Villager,tag=tutorial:stage1] ~ ~ ~ execute @s[tag=!tutorial:sta
 execute @e[type=Villager,tag=tutorial:stage2] ~ ~ ~ execute @s[tag=!tutorial:stage2:done] ~ ~ ~ function tutorial:stage2.runner
 # stage 3
 execute @e[type=Villager,tag=tutorial:stage3] ~ ~ ~ execute @s[tag=!tutorial:stage3:done] ~ ~ ~ function tutorial:stage3.runner
+# stage 4
+execute @e[type=Villager,tag=tutorial:stage4] ~ ~ ~ execute @s[tag=!tutorial:stage4:done] ~ ~ ~ function tutorial:stage4.runner

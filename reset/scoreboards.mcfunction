@@ -13,3 +13,7 @@ scoreboard objectives remove wallrun
 scoreboard objectives add wallrun dummy
 scoreboard objectives remove wallruncooldown
 scoreboard objectives add wallruncooldown dummy
+
+scoreboard teams remove nocollision
+scoreboard teams add nocollision
+scoreboard teams option nocollision collisionRule never

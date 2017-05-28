@@ -4,3 +4,5 @@ function mechanics:walljump.runner
 function mechanics:wallrun.runner
 function mechanics:wallblock.runner
 function mechanics:ladder.runner
+
+scoreboard teams join nocollision @a[team=!nocollision]
